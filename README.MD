@@ -12,18 +12,18 @@
 
 
 
-## 1.countCode  统计指定目录下代码行数及注释率
+## 1.countCode  
 
- ** 用法: node count.js <路径> [后缀名]...*
+#### 统计指定目录下代码行数及注释率
 
- ** 后缀名不填的话默认为统计 .js 和 .ts 文件*
-
-***
-
- * 示例 [统计 ./src 下的 js 文件]: node countCode.js ./src*
-
- * 示例 [统计 ./dist 下的 java 文件]: node countCode.js ./src .java*
-
- ** 示例 [统计 d:\testFolder文件夹]: node c:\countCode.js d:\testFolder*
-
-注意：后缀名带有字符点：“.”
+> 用法: node count.js <路径> [后缀名]...
+>
+> 后缀名不填的话默认为统计 .js 和 .ts 文件
+>
+> 示例 [统计 ./src 下的 js 文件]: node countCode.js ./src
+>
+> 示例 [统计 ./dist 下的 java 文件]: node countCode.js ./src .java
+>
+> 示例 [统计 d:\testFolder文件夹]: node c:\countCode.js d:\testFolder
+>
+> 注意：后缀名带有字符点：“.”
